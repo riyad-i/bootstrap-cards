@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 //import card1
-import Card1 from "./components/Card1";
+import Card from "./components/Card";
 import Card2 from "./components/Card2";
 import cardsArr from './data'
 
 const cards = cardsArr.map((ele, ind) => {
   return (
-    <Card1
+    <Card
       img={ele.img}
       title={ele.title}
       text={ele.text}
